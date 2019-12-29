@@ -1,0 +1,13 @@
+plugins:
+  lohnrechner_enabled:
+    default: true
+    client: true
+  lohnrechner_url:
+    default: "https://vsao-zh.ch/lohnrechner"
+    client: true
+  lohnrechner_token_url_parameter:
+    default: "token"
+    client: true
+  lohnrechner_referral:
+    default: "doc-doc"
+    client: true

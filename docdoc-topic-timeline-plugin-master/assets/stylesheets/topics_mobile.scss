@@ -1,0 +1,124 @@
+.mobile-view {
+    #main {
+        position: initial;
+    }
+
+    .topic-meta-data {
+        margin-left: 60px;
+        margin-top: -35px;
+        margin-bottom: 20px;
+    }
+
+    .search-container .search-advanced-sidebar {
+        display: block!important;
+    }
+
+    .bootbox.modal {
+        margin: auto;
+    }
+
+    .static-login #main-outlet .body-page .login-required a {
+        font-size: 40px;
+        line-height: 45px!important;
+    }
+
+    .static-login #main-outlet .body-page .login-required p {
+        font-size: 20px!important;
+        line-height: 28px!important;
+    }
+
+    .login-required p>a {
+        font-size: 20px !important;
+    }
+
+    .static-login .modal-inner-container {
+        padding: 20px;
+        min-width: auto;
+    }
+
+    .banner-block {
+        padding: 30px 0 !important;
+        width: 90% !important;
+        margin: 30px auto !important;
+    }
+
+
+    .banner-block h1 {
+        font-size: 28px !important;
+        margin-bottom: 20px !important;
+    }
+
+    #list-area .mansory {
+        column-count: auto!important;
+        column-gap: normal!important;
+        column-rule: none!important;
+    }
+
+    .topic-list .topic-excerpt {
+        width: auto!important;
+    }
+
+    #list-area .right-column .arrow,
+    #list-area .left-column .arrow {
+        display: none!important;
+
+    }
+
+    #list-area .topic-list-item.right-column,
+    #list-area .topic-list-item.left-column {
+        width: 100%!important;
+        margin-left: 0!important;
+        margin-top: 0!important;
+    }
+
+    .topic-body {
+        width: 100%!important;
+        border-top: none!important;
+        padding: 5px 0 0 0!important;
+    }
+
+    .poll-container li {
+        flex-wrap: wrap!important;
+        height: auto!important;
+        padding: 0!important;
+    }
+
+    div.poll .poll-voters-list {
+        margin-top: 0!important;
+    }
+
+    div.poll .results .bar {
+        margin: 8px 7px 0px 0px!important;
+        //width: calc(100% - 50px)!important;
+    }
+
+    .topic-avatar {
+        border-top: none!important;
+        padding-top: 0!important;
+    }
+
+    div.poll li[data-poll-option-id] {
+        padding: 0.5em 0em 0em 0em!important;
+    }
+
+    .select-kit {
+        display: block!important;
+        padding-bottom: 5px!important;
+    }
+
+    .topic-post:last-of-type,
+    div.poll .poll-buttons,
+    div.poll .poll-container,
+    div.poll .poll-info {
+        padding: 0!important;
+    }
+
+    #list-area .topic-info-row {
+        display: inline !important;
+    }
+
+    #list-area .post-view-count-title,
+    #list-area .post-count-title {
+        margin-left: 0!important;
+    }
+}

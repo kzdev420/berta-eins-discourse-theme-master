@@ -1,0 +1,25 @@
+{
+  "name": "Berta Eins Discourse Theme",
+  "about_url": "https://github.com/vadim-bondar-ew/berta-eins-discourse-theme",
+  "license_url": "https://github.com/vadim-bondar-ew/berta-eins-discourse-theme/blob/master/LICENSE",
+  "assets": {
+    "anonymous_banner": "assets/banner.png",
+    "mini_logo": "assets/mini-logo.png",
+    "mini_logo2": "assets/mini-logo2.png",
+    "forward": "assets/forward.svg",
+    "flag": "assets/flag.svg",
+    "share": "assets/share.svg",
+    "stroke": "assets/stroke.svg",
+    "user": "assets/user.svg",
+    "bg": "assets/bg.png",
+    "CircularStd-Black": "assets/CircularStd-Black.woff",
+    "CircularStd-Bold": "assets/CircularStd-Bold.woff",
+    "CircularStd-BlackItalic": "assets/CircularStd-BlackItalic.woff",
+    "CircularStd-BoldItalic": "assets/CircularStd-BoldItalic.woff",
+    "CircularStd-Medium": "assets/CircularStd-Medium.woff",
+    "CircularStd-MediumItalic": "assets/CircularStd-MediumItalic.woff",
+    "CircularStd-Book": "assets/CircularStd-Book.woff",
+    "CircularStd-BookItalic": "assets/CircularStd-BookItalic.woff",
+    "font-awesome": "assets/font-awesome.ttf"
+  }
+}

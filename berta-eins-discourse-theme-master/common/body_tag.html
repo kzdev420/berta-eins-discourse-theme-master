@@ -1,0 +1,36 @@
+<script>
+    function createTopic() {
+        const Composer = require('discourse/models/composer').default;
+        const composerController = Discourse.__container__.lookup('controller:composer');
+        composerController.open({ action: Composer.CREATE_TOPIC, draftKey: Composer.DRAFT });
+    }
+
+    function showSearch() {
+        setTimeout(function(){ $('#search-button').click()}, 100);
+    }
+    
+  Discourse.ExternalNavItem = Discourse.NavItem.extend({
+    href : function() {
+      return this.get('href');
+    }.property('href')
+  });
+
+  I18n.translations.en.js.filters.lohnrechner = { title: "Lohnrechner", help: "Lohnrechner" };
+
+  Discourse.NavItem.reopenClass({
+    buildList : function(category, args) {
+      var list = this._super(category, args);
+      if(!category) {
+        list.push(Discourse.ExternalNavItem.create({href: 'https://vsao-zh.ch/lohnrechner/?return', name: 'lohnrechner'}));
+      }
+      return list;
+    }
+  });
+  
+  $(function(){
+      setTimeout(function(){
+    $("li[title='Lohnrechner'] > a").attr("target" , "_blank");
+      }, 500);
+  });
+
+</script>

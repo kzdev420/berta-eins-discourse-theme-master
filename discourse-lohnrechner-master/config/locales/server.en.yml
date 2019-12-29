@@ -1,0 +1,6 @@
+en:
+  site_settings:
+    lohnrechner_enabled: 'Enable the Lohnrechner redirect under /lohnrechner'
+    lohnrechner_url: 'The external URL for the Lohnrechner-Tool'
+    lohnrechner_token_url_parameter: 'The URL-Parameter to be sent with the token'
+    lohnrechner_referral: 'The Referral String used to determine the validity-duration of the Token'
